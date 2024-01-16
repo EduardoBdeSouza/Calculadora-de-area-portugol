@@ -1,0 +1,71 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+ inteiro n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11, n12, n13, n14, n15, n16, n17, n18, n19, n20, mat, opcao, mat2, mat3, mat4
+	
+		escreva("1 - Quadrado ","\n")
+escreva("2 - Retângulo ","\n")
+escreva("3 - Triângulo ","\n")
+escreva("4 - Trapézio ","\n")
+leia(opcao)
+
+
+
+
+se (opcao == 1){
+	escreva("digite o valor da base do quadrado ","\n")
+	leia(n1)
+
+escreva("digite o valor da altura do quadrado ","\n")
+	leia(n2)
+
+mat = (n1 * n2)
+
+escreva("a área do quadrado é ", mat, "\n")
+
+	
+}
+
+se (opcao == 2){
+	escreva("digite o valor da base do retângulo ","\n")
+	leia(n3)
+
+escreva("digite o valor da altura do retângulo","\n")
+	leia(n4)
+
+mat2 = (n3 * n4)
+
+escreva("a área do retângulo é ", mat2, "\n")
+}
+
+se (opcao == 3){
+	escreva("digite o valor da base do Triângulo ","\n")
+	leia(n5)
+
+escreva("digite o valor da altura do Triângulo","\n")
+	leia(n6)
+
+mat3 = (n5 * n6)/2
+
+escreva("a área do Triângulo é ", mat3, "\n")      
+}	
+se (opcao == 4){
+	escreva("digite o valor da base maior do Trapézio ","\n")
+	leia(n7)
+
+	escreva("digite o valor da base menor do Trapézio ","\n")
+	leia(n8)
+
+escreva("digite o valor da altura do Trapézio","\n")
+	leia(n9)
+
+mat4 = (n7 * n8)* n9/2
+
+escreva("a área do Trapézio é ", mat4, "\n")      
+}
+		
+	}
+}
